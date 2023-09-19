@@ -6,6 +6,8 @@ const {errorHandler} = require('./middlewares/errorMiddleware');
 const connectDB = require('./config/db');
 
 
+
+
 connectDB();
 const app  = express();
 app.use(express.json());
